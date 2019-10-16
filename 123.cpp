@@ -2,9 +2,9 @@
 
 int main (void)
 {
-  int a;
+   int a;
    printf("Введите\n");
    scanf("%d", &a);
-  printf("Hello, world!\n");
+  printf("Hello, %d!\n", a);
   return 0;
 }
